@@ -1,0 +1,12 @@
+name: mbhvPerms
+version: '${project.version}'
+main: org.best.mbhvperms.MbhvPerms
+api-version: '1.19'
+commands:
+  perm:
+    description: "Adds/Removes a player's permissions."
+    permission: mbhvPerms.perm
+permissions:
+  mbhvPerms.perm:
+    description: Allows access to the perm command
+    default: op

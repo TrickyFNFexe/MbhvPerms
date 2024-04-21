@@ -8,7 +8,7 @@ MbhvPerms is a plugin designed to simplify the process of adding permissions to 
 
 ## SpigotMC
 
-SpigotMC page is right here: ![SpigotMC](https://www.spigotmc.org/resources/mbhvperms.116327/). My SpigotMC profile: ![profile](https://www.spigotmc.org/resources/authors/forreal31452.1848234/)
+SpigotMC page is right here: [SpigotMC](https://www.spigotmc.org/resources/mbhvperms.116327/). My SpigotMC profile: [profile](https://www.spigotmc.org/resources/authors/forreal31452.1848234/)
 
 ## Version History
 

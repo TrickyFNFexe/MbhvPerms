@@ -24,7 +24,6 @@ public final class MbhvPerms extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         luckPerms = LuckPermsProvider.get();
         this.getCommand("perm").setExecutor(new CommandExecutor() {
             @Override
@@ -80,7 +79,6 @@ public final class MbhvPerms extends JavaPlugin {
                         sender.sendMessage("§a Users with permission " + target + ": §f" + users.stream().map(User::getUsername).collect(Collectors.joining(", ")));
                         break;
                     case "list":
-                        // Add your logic for listing here
                         break;
                 }
 
@@ -88,7 +86,6 @@ public final class MbhvPerms extends JavaPlugin {
             }
         });
 
-        // Set tab completer for the /perm command
         this.getCommand("perm").setTabCompleter(new TabCompleter() {
             @Override
             public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
@@ -107,6 +104,5 @@ public final class MbhvPerms extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
     }
 }
